@@ -1,0 +1,70 @@
+#outer
+{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid teal; 
+    justify-content: center;
+    align-items: center;
+    background-color: snow;
+}
+
+
+#cont
+{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+} 
+
+#cont2
+{
+    display: flex;
+    align-items: enter;
+    width: 100%;
+    justify-content:space-around;
+    border: 2px solid black;
+}
+
+img
+{
+    width: 90%;
+}
+
+#o1
+{
+    display: flex;
+}
+
+#o2
+{
+    display: flex;
+}
+
+#top
+{
+    display: flex;
+    background-color: blue;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cont
+{
+    background-color: brown;
+    width: 40%;
+}
+
+input
+{
+    height: 30px;
+    width: 86%;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 16px;
+}
